@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./allStyles/structure.css">
+    <link rel="stylesheet" href="./allStyles/sharedStyles.css">
+    <title>HOME</title>
+</head>
+<body onload="moveClouds()">
+    
+    <div id="toolBar">
+        <div id="accessTools">
+            <div id="active">
+                <p class="activeLanguage">lang: eng(KE)
+                    <img src="./IllustrationFile/KenyaFlagUpdate.jpg" alt="LanguageFlag" height="10px">
+                </p>
+            </div>
+            <div id="inactive">
+                <p class="inactiveLanguage"></p>
+                <p class="inactiveLanguage"></p>
+                <p class="inactiveLanguage"></p>
+            </div>
+        </div>
+    </div>
+
+    <div id="navigation">
+        <div class="options"onclick="stop()">
+            <div id="navigateOptionMuseum" class="Option" onclick="switchToMenu(1)">
+                <div class="selection selection1"></div>
+                 museum
+            </div>
+            <div id="navigateOptionDownload" class="Option" onclick="switchToMenu(2)">
+                <div class="selection selection2"></div>
+                download
+            </div>
+            <div id="navigateOptionContact" class="Option"onclick="switchToMenu(3)">
+                <div class="selection selection3"></div>
+                contact me
+            </div>
+        </div>
+    </div>
+
+<!--?chack here for all the illustrations-->
+    <div id="illustration">
+        <img src="./IllustrationFile/MuseumEdited.jpg" alt="Museum Illustration Art"">
+    </div>
+    <div id="illustration2">
+        <img src="./IllustrationFile/BigDog.jpg" alt="Illustration Art">
+    </div>
+    <div id="illustration3">
+         <img src="./IllustrationFile/SmallDog.jpg" alt="Illustration Art">
+    </div>
+
+
+
+    <div id="adornments">
+        <img src="./IllustrationFile/CoolDog.jpg" alt="Illustration Art" height="500px" onclick="EasterAnimal(1)">
+    </div>
+    <div id="adornments2">
+        <img src="./IllustrationFile/BigDog.jpg" alt="Illustration Art" height="115%" onclick="EasterAnimal(2)">
+    </div>
+    <div id="adornments3">
+        <img src="./IllustrationFile/SmallDog.jpg" alt="Illustration Art" onclick="EasterAnimal(3)">
+    </div>
+
+    <div class="cloudyAdornments" >
+        <img src="./IllustrationFile/NewMainCloud2.jpg" alt="Illustration Art" id="mainCloud">
+        <img src="./IllustrationFile/cloudConcept4.jpg" alt="Illustration Art" id="secondaryCloud">
+    </div>
+
+    <div class="QuotesBar">
+        <p class="quote">
+            <img src="#" alt="QuotationMarks" srcset="">
+        </p>
+    </div>
+    
+
+
+    <script src="./allJSfiles/animations.js"></script>
+    <script src="./allJSfiles/functionality.js"></script>
+</body>
+</html>

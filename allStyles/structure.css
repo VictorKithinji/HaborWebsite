@@ -1,0 +1,145 @@
+
+/*? Navigation begins here*/
+#active
+{
+    z-index: 1;
+}
+
+#navigation
+{
+    position: absolute;
+    width: 70vw;
+    height: 50px;
+    margin-left: 20vw;
+    margin-top:15%;
+    z-index: 2;
+}
+.options
+{
+    position: relative;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    z-index: 1;
+}
+
+.Option
+{
+    display: flex;
+    flex-direction: column;
+    z-index: 2;
+    cursor: pointer;
+    vertical-align: text-top;
+    
+}
+
+.selection
+{
+    /*! make this appear once someone hovers*/
+    width: 4px;
+    border-radius: 5px;
+    height: 17px;
+    margin-top: auto;
+    margin-bottom: auto;
+}
+
+#illustration
+{
+    position: absolute;
+    margin-left: 0;
+    bottom: 0;
+    width: 60vw;
+    height: fit-content;
+    z-index: 0;
+    display: none;
+}
+
+#illustration2
+{
+    position: absolute;
+    margin-left: 0;
+    bottom: 0;
+    width: 60vw;
+    height: fit-content;
+    z-index: 0;
+    display: none;
+}
+
+#illustration3
+{
+    position: absolute;
+    margin-left: 0;
+    bottom: 0;
+    width: 60vw;
+    height: fit-content;
+    z-index: 0;
+    display: none;
+}
+
+#adornments
+{
+    position: absolute;
+    margin-left: 0;
+    bottom: 0;
+    width: 60vw;
+    height: 50vh;
+    z-index: 0;
+}
+
+#adornments2
+{
+    position: absolute;
+    margin-left: 0;
+    bottom: 0;
+    width: 60vw;
+    height: 50vh;
+    z-index: 0;
+    display: none;
+}
+
+#adornments3
+{
+    position: absolute;
+    margin-left: 0;
+    bottom: 0;
+    width: 60vw;
+    height: 50vh;
+    z-index: 0;
+    display: none;
+}
+
+.cloudyAdornments
+{
+    position: absolute;
+    top: 0;
+    width: 100%;
+    height: 40vh;
+    z-index: 0;
+}
+
+
+#mainCloud
+{
+    margin-left: 75%;
+    height: 80%;
+    z-index: 1;
+}
+
+#secondaryCloud
+{
+    position: absolute;
+    height: 35%;
+    margin-left: 20%;
+    top: 35%;
+    z-index: 0;
+}
+
+.QuotesBar
+{
+    position: absolute;
+    bottom: 0;
+    margin-left:70vw;
+    width: 20vw;
+    background-color: antiquewhite;
+
+}
