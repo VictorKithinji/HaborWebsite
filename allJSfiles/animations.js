@@ -82,28 +82,6 @@ let Contact = document.getElementById("navigateOptionContact");
                     )
                  
             }
-            function moveCloudsSecondary()
-            {
-               //?secondary cloud
-              
-                let frameRate = 0.6;
-                let frame = 0.015;
 
-                console.log(frame)
-                imgObjSecondary.style.left = parseFloat(imgObjSecondary.style.left) + frame + 'px';
-                dispersion =  parseFloat(imgObjSecondary.style.left) + frame + 'px';
-                animateSecondary = setTimeout(moveClouds,frameRate);    // call moveRight in 20msec   
-
-                
-                setTimeout(() => 
-                {
-                    clearTimeout(animateSecondary);
-                    animateSecondary = setTimeout(stop,300);    // call moveRight in 20msec
-                    // imgObj.style.left =  dispersion;
-                    // imgObj.style.left = dispersion + frame + 'px';
-                    // returnCloud = setTimeout(moveClouds,frameRate);    // call moveRight in 20msec  
-                }, 100000
-                )
-            }
 
             window.onload = init;

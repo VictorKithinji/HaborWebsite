@@ -6,6 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="./allStyles/structure.css">
     <link rel="stylesheet" href="./allStyles/sharedStyles.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
     <title>HOME</title>
 </head>
 <body onload="moveClouds()">
@@ -27,6 +28,11 @@
 
     <div id="navigation">
         <div class="options"onclick="stop()">
+            <div id="goBack" onclick="goBack()">
+                <svg xmlns="http://www.w3.org/2000/svg" width="1=26" height="26" fill="rgb(241, 229, 199)" class="bi bi-caret-left goBackIcon" viewBox="0 0 16 16">
+                    <path d="M10 12.796V3.204L4.519 8 10 12.796zm-.659.753-5.48-4.796a1 1 0 0 1 0-1.506l5.48-4.796A1 1 0 0 1 11 3.204v9.592a1 1 0 0 1-1.659.753z"/>
+                  </svg>
+            </div>
             <div id="navigateOptionMuseum" class="Option" onclick="switchToMenu(1)">
                 <div class="selection selection1"></div>
                  museum
@@ -44,13 +50,13 @@
 
 <!--?chack here for all the illustrations-->
     <div id="illustration">
-        <img src="./IllustrationFile/MuseumEdited.jpg" alt="Museum Illustration Art"">
+        <img src="./IllustrationFile/MuseumEdited.jpg" alt="Museum Illustration Art">
     </div>
     <div id="illustration2">
-        <img src="./IllustrationFile/BigDog.jpg" alt="Illustration Art">
+        <img src="./IllustrationFile/Download.png" alt="Illustration Art" height="300rem">
     </div>
     <div id="illustration3">
-         <img src="./IllustrationFile/SmallDog.jpg" alt="Illustration Art">
+         <img src="./IllustrationFile/Contact Me.png" alt="Illustration Art">
     </div>
 
 

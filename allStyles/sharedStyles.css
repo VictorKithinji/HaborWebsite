@@ -42,3 +42,18 @@ p
     transition: all 120ms;
     font-weight: 600;
 }
+
+#goBack
+{
+    display: none;
+    position: absolute;
+    margin-right: 90%;
+    bottom: 0;
+    z-index: 3;
+}
+
+.goBackIcon:hover
+{
+    fill: rgb(250, 130, 2);
+    transition: all 120ms;
+}
