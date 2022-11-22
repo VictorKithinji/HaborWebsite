@@ -17,6 +17,11 @@ p
     z-index: 0;
 }
 
+.AllAccessNavigation
+{
+   border-radius: 3px; 
+}
+
 #navigation
 {
     border-bottom: solid rgb(241, 229, 199) 3px;
@@ -56,4 +61,18 @@ p
 {
     fill: rgb(250, 130, 2);
     transition: all 120ms;
+}
+
+/*?Retractable content menu design starts here*/
+
+#ContentAccess
+{
+    border-radius: 3px;
+}
+
+.Content
+{
+    text-align: center;
+    width: 95%;
+
 }

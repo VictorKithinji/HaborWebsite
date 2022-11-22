@@ -26,24 +26,32 @@
         </div>
     </div>
 
-    <div id="navigation">
-        <div class="options"onclick="stop()">
-            <div id="goBack" onclick="goBack()">
-                <svg xmlns="http://www.w3.org/2000/svg" width="26" height="26" fill="rgb(241, 229, 199)" class="bi bi-caret-left goBackIcon" viewBox="0 0 16 16">
-                    <path d="M10 12.796V3.204L4.519 8 10 12.796zm-.659.753-5.48-4.796a1 1 0 0 1 0-1.506l5.48-4.796A1 1 0 0 1 11 3.204v9.592a1 1 0 0 1-1.659.753z"/>
-                  </svg>
+    <div class="AllAccessNavigation">
+        <div id="navigation">
+            <div class="options"onclick="stop()">
+                <div id="goBack" onclick="goBack()">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="26" height="26" fill="rgb(241, 229, 199)" class="bi bi-caret-left goBackIcon" viewBox="0 0 16 16">
+                        <path d="M10 12.796V3.204L4.519 8 10 12.796zm-.659.753-5.48-4.796a1 1 0 0 1 0-1.506l5.48-4.796A1 1 0 0 1 11 3.204v9.592a1 1 0 0 1-1.659.753z"/>
+                    </svg>
+                </div>
+                <div id="navigateOptionMuseum" class="Option" onclick="switchToMenu(1)">
+                    <div class="selection selection1"></div>
+                    museum
+                </div>
+                <div id="navigateOptionDownload" class="Option" onclick="switchToMenu(2)">
+                    <div class="selection selection2"></div>
+                    download
+                </div>
+                <div id="navigateOptionContact" class="Option"onclick="switchToMenu(3)">
+                    <div class="selection selection3"></div>
+                    contact me
+                </div>
             </div>
-            <div id="navigateOptionMuseum" class="Option" onclick="switchToMenu(1)">
-                <div class="selection selection1"></div>
-                 museum
-            </div>
-            <div id="navigateOptionDownload" class="Option" onclick="switchToMenu(2)">
-                <div class="selection selection2"></div>
-                download
-            </div>
-            <div id="navigateOptionContact" class="Option"onclick="switchToMenu(3)">
-                <div class="selection selection3"></div>
-                contact me
+        </div>
+
+        <div id="ContentAccess">
+            <div class="Content">
+                <p>content</p>
             </div>
         </div>
     </div>

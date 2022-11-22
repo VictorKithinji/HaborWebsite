@@ -5,15 +5,22 @@
     z-index: 1;
 }
 
-#navigation
+.AllAccessNavigation
 {
     position: absolute;
+    background-color: aqua;
     width: 70vw;
-    height: 50px;
+    height: fit-content;
     margin-left: 20vw;
     margin-top:15%;
     z-index: 2;
 }
+
+#navigation
+{
+    position: relative;
+}
+
 .options
 {
     position: relative;
@@ -74,6 +81,25 @@
     height: fit-content;
     z-index: 0;
     display: none;
+}
+
+/*? the retractable content menu structure design starts here*/
+
+#ContentAccess
+{
+    width: 100%;
+    background-color: rgba(179, 179, 15, 0.796);
+    overflow: hidden;
+    height: 80px;
+    margin-top: 1%;
+}
+
+.Content
+{
+    position: relative;
+    background-color: rgba(7, 85, 85, 0.436);
+    margin-left: auto;
+    margin-right: auto;
 }
 
 #adornments
